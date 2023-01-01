@@ -12,7 +12,7 @@ To use the FlangerDialog, create an instance of the class and call the show() me
 
 Here is an example of how to use the FlangerDialog:
 
-Copy code
+``` 
 import sys
 from PyQt5.QtWidgets import QApplication
 
@@ -22,3 +22,4 @@ app = QApplication(sys.argv)
 dialog = FlangerDialog()
 dialog.show()
 sys.exit(app.exec_())
+``` 
